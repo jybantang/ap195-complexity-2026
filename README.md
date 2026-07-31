@@ -16,11 +16,21 @@ During one week with schedule as announced, you are expected to work on one of t
 You are free to collaborate with your classmates as we aim to optimize the learning process.
 However, you are required to disclose the name of the classmate(s) you collaborated with in the report and in the Jupyter notebook to be submitted.
 
-## MP0: Julia Explorations
+## Machine Problem 0
+[MP0: Julia Explorations]()
 **OBJECTIVE**: Successfully Explore Julia
 
-## MP1:
+## Machine Problem 1
+MP1: To follow.
 
+## Machine Problem 2
+MP2: To follow.
+
+## Machine Problem 3
+MP3: To follow.
+
+## Machine Problem 4
+MP4: To follow.
 
 # Disclamer
 Where indicated, parts of the codes and exercises may be taken from various sources specifically examples from the Julia website.
