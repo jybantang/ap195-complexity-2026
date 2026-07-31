@@ -5,9 +5,9 @@
 Provide a Google Docs documentation for the following Key Results (KR).
 Use the provided template.
 You may need a screenshot / printscreen to provide evidence on the following.
-- [ ] **KR1a:** Created dedicated folder for AP195 Machine Problems.
+- [ ] **KR1a:** Created a dedicated folder for AP195 Machine Problems.
       The structure of the folder must follow the repository structure.
-      This one can be done by git-cloning the whole repository.
+      This one can be done by git-duplicating the whole repository.
 - [ ] **KR1:** Confirmed installation of both [Julia](https://julialang.org/downloads/) and [VSCode](https://code.visualstudio.com) along with the required plugins.
       Run Julia REPL in the command line interface (CLI) and issue the `versioninfo()` command in the installed Julia REPL environment to show the relevant information of the installation.
       The VSCode instance should be able to recognize Julia by installing the following extensions within VSCode.      
