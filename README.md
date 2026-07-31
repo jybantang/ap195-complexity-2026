@@ -18,6 +18,7 @@ However, you are required to disclose the name of the classmate(s) you collabora
 
 ## Machine Problem 0
 [MP0: Julia Explorations]()
+
 **OBJECTIVE**: Successfully Explore Julia
 
 ## Machine Problem 1

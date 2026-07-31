@@ -11,13 +11,12 @@ Open and run the
       - Language support: `Julia: Julia Language Support`
       - Color theme: `Julia Color Themes: Color themes for the Julia language`
 - [ ] **KR1a:** Created dedicated folder for AP195 Machine Problems.
-      The structure of the folder must follow as instructed below.
+      The structure of the folder must follow the repository structure.
       Run Julia REPL in the command line interface (CLI) and issue the `versioninfo()` command in the installed Julia REPL environment to show the relevant information of the installation.
-- [ ] **KR1a:** 
-- [ ] **KR2a:** Successful execution of [mathematical commands via the Julia terminal ("advanced" calculator function) following a tutorial page](https://en.wikibooks.org/wiki/Introducing_Julia/The_REPL#Julia_and_mathematics) ...
-- [ ] **KR2b:** ... up to generating a histogram of a normal-distributed (Gaussian) random numbers.
-- [ ] **KR3:** Show switching of REPL to [the four REPL modes](https://en.wikibooks.org/wiki/Introducing_Julia/The_REPL). Discuss the differences and use of each mode.
-- [ ] **KR4:** Display the type hierarchy in Julia (starting from `Number`) similar to one shown in [the Julia Documentation page](https://docs.julialang.org/en/v1/base/numbers/). Utize the [`showtypetree()` function in the wikibooks page](https://en.wikibooks.org/wiki/Introducing_Julia/Types).
+- [ ] **KR1b:** Completed execution of the `Hello World!` code as jupyter notebook.
+      Use export to PDF as output to be submitted together with the `.ipynb` file.
+- [ ] **KR2:** Successful exploration of [mathematical commands within the Jupyter notebook following a tutorial page](https://en.wikibooks.org/wiki/Introducing_Julia/The_REPL#Julia_and_mathematics)...
+- [ ] **KR3:** Successful use of the CLI REPL within the VSCode app with [the four REPL modes](https://en.wikibooks.org/wiki/Introducing_Julia/The_REPL). Discuss the differences and use of each mode.
 
 # Folder structure
 The folder structure should follow the structure of this repository.
@@ -65,8 +64,8 @@ One feature is its ability to incorporate many formatting schemes.
 VSCode also provides direct access to the appropriate terminal within your own OS.
 GitHub scripts extension is also available, an advantage for coding teamwork.
 
-VSCode can be used in to edit either: raw .jl file, or .ipynb file.
+VSCode can be used in to edit either: raw `.jl` file, or `.ipynb` file.
 VSCode also provides direct access to the appropriate terminal within your own OS.
 GitHub scripts extension is also available, an advantage for coding teamwork.
 
-VSCode can be used in to edit either: raw .jl file, or .ipynb file.
+VSCode can be used in to edit either: raw `.jl` file, or `.ipynb` file.
