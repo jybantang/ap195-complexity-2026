@@ -5,11 +5,27 @@
 Provide a Google Docs documentation for the following Key Results (KR).
 Use the provided template.
 You may need a screenshot / printscreen to provide evidence on the following.
-- [ ] **KR1:** Runs the `versioninfo()` command in the installed Julia REPL environment to show the relevant information of the installation.
+- [ ] **KR1:** Confirmed installation of both [Julia](https://julialang.org/downloads/) and [VSCode](https://code.visualstudio.com).
+      The VSCode instance should be able to recognize Julia by installing the following extensions within VSCode.
+      - `Julia: Julia Language Support`
+      - `Julia Color Themes: Color themes for the Julia language`
+- [ ] **KR1a:** Created dedicated folder for AP195 Machine Problems.
+      The structure of the folder must follow as instructed below.
+      Run Julia REPL in the command line interface (CLI) and issue the `versioninfo()` command in the installed Julia REPL environment to show the relevant information of the installation.
+- [ ] **KR1a:** 
 - [ ] **KR2a:** Successful execution of [mathematical commands via the Julia terminal ("advanced" calculator function) following a tutorial page](https://en.wikibooks.org/wiki/Introducing_Julia/The_REPL#Julia_and_mathematics) ...
 - [ ] **KR2b:** ... up to generating a histogram of a normal-distributed (Gaussian) random numbers.
 - [ ] **KR3:** Show switching of REPL to [the four REPL modes](https://en.wikibooks.org/wiki/Introducing_Julia/The_REPL). Discuss the differences and use of each mode.
 - [ ] **KR4:** Display the type hierarchy in Julia (starting from `Number`) similar to one shown in [the Julia Documentation page](https://docs.julialang.org/en/v1/base/numbers/). Utize the [`showtypetree()` function in the wikibooks page](https://en.wikibooks.org/wiki/Introducing_Julia/Types).
+
+# Folder structure
+The folder structure should follow the structure of this repository.
+Avoid the use of space character for filenames and folder names. Use dash `-` instead.
+```
+[path-to-folder]/ap195-[surname]/
+```
+The `[path-to-folder]` indicates the local folder where you wish to place your ap195 machine problem files.
+The `[surname]` should be your own surname (e.g. `delacruz`, without the spaces, lowercase).
 
 # Installing Julia
 Julia app can be directly downloaded from the Julialang.org [“Download Julia” page](https://julialang.org/downloads). 
@@ -48,6 +64,10 @@ Installation of Jupyter notebook allows beautiful notebooks, .ipynb, that can me
 VSCode is becoming popular in many programming languages.
 One feature is its ability to incorporate many formatting schemes.
 [There is a Julia an extension](https://code.visualstudio.com/docs/languages/julia) in your existing [VSCode installation](https://code.visualstudio.com/download).
+VSCode also provides direct access to the appropriate terminal within your own OS.
+GitHub scripts extension is also available, an advantage for coding teamwork.
+
+VSCode can be used in to edit either: raw .jl file, or .ipynb file.
 VSCode also provides direct access to the appropriate terminal within your own OS.
 GitHub scripts extension is also available, an advantage for coding teamwork.
 
