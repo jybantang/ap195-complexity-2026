@@ -22,7 +22,7 @@ You may need a screenshot / printscreen to provide evidence on the following.
 The folder structure should follow the structure of this repository.
 Avoid the use of space character for filenames and folder names. Use dash `-` instead.
 ```
-[path-to-folder]/ap195-[surname]/
+[path-to-folder]/ap195-complexity-2026-[surname]/
 ```
 The `[path-to-folder]` indicates the local folder where you wish to place your ap195 machine problem files.
 The `[surname]` should be your own surname (e.g. `delacruz`, without the spaces, lowercase).
