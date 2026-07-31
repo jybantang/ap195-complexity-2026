@@ -1,35 +1,51 @@
-# Machine Problem 0: Exploration
-[Main](../README.md) | [Next](./)
+# Applied Physics 195: Machine Problem 0 (MP0)
+## Mission Briefing: Environment Verification & Git Workflow Dry-Run
 
-## OBJECTIVE: Successfully Explore Julia
-Provide a Google Docs documentation for the following Key Results (KR).
-Use the provided template.
-You may need a screenshot / printscreen to provide evidence on the following.
-- [ ] **KR1a:** Created a dedicated folder for AP195 Machine Problems.
-      The structure of the folder must follow the repository structure.
-      This one can be done by git-duplicating the whole repository.
-- [ ] **KR1:** Confirmed installation of both [Julia](https://julialang.org/downloads/) and [VSCode](https://code.visualstudio.com) along with the required plugins.
-      Run Julia REPL in the command line interface (CLI) and issue the `versioninfo()` command in the installed Julia REPL environment to show the relevant information of the installation.
-      The VSCode instance should be able to recognize Julia by installing the following extensions within VSCode.      
-      - Language support: `Julia: Julia Language Support`
-      - Color theme: `Julia Color Themes: Color themes for the Julia language`
-- [ ] **KR1b:** Completed execution of the Configuration code as the provided jupyter notebook.
-      Use export to PDF as output to be submitted together with the `.ipynb` file.
-- [ ] **KR2:** Successful exploration of [mathematical commands within the Jupyter notebook following a tutorial page](https://en.wikibooks.org/wiki/Introducing_Julia/The_REPL#Julia_and_mathematics)...
-- [ ] **KR3:** Successful use of the CLI REPL within the VSCode app with [the four REPL modes](https://en.wikibooks.org/wiki/Introducing_Julia/The_REPL). Discuss the differences and use of each mode.
+### 🎯 Objective
+Establish and verify your local computational research environment (VS Code, Julia 1.x, Jupyter, Git) and execute a reproducible dry-run for the submission pipeline.
 
-# Folder structure
-The folder structure should follow the structure of this repository.
-You may clone the whole repository but may need to update in case an update is necessary.
-Avoid the use of space character for filenames and folder names. Use dash `-` instead.
+---
 
-# Installing Julia
+### 📊 Key Results (Your Grading Rubric)
+
+### 😎 Base KRs (≤ 80%)
+- [ ] **KR1 (Julia and IDE):** 
+  Confirmed installation of both [Julia](https://julialang.org/downloads/) and [VSCode](https://code.visualstudio.com) along with the required plugins.
+  Run Julia REPL in the command line interface (CLI) and issue the `versioninfo()` command in the installed Julia REPL environment to show the relevant information of the installation.
+  The VSCode instance should be able to recognize Julia by installing the following extensions within VSCode.      
+    - Language support: `Julia: Julia Language Support`
+    - Color theme: `Julia Color Themes: Color themes for the Julia language`
+- [ ] **KR2 (Environment & Code Inheritance):** 
+  Clone the starter template repository (see instructions below) and instantiate the isolated Julia environment (`Project.toml` via `Pkg.instantiate()`), and run the baseline notebook top-to-bottom without execution errors.
+- [ ] **KR3 (Code Personalization & Metadata):** 
+  Modify the appropriate with your personal metadata (`student_name`, `student_id`) and adjust the plot styling variables in Cell 5 (e.g., custom line color or LaTeX title string) to confirm execution ownership.
+- [ ] **KR4 (Submission Dry-Run):** 
+  Generate a local Git commit checkpoint and submit your deliverables before the deadline:
+  - **Bin 1 (LMS Report):** Exported PDF/Image of the fully executed notebook showing LaTeX plot outputs.
+  - **Bin 2 (Code Bin):** Pushed GitHub Repository URL and exact 12-character Git Commit Hash in the report header.
+
+### 🫡 Outstanding KRs (up to +20%)
+For students aspiring to demonstrate early computational mastery:
+
+- [ ] **KR5 (Exploratory Parameter Shift):** 
+  In Cell 4, extend the discrete logistic map trajectory sweep by adding a third control parameter regime ($r = 3.56$, the onset of period-doubling) and overlay it on the Cell 5 plot.
+- [ ] **KR6 (Automated File Export Hygiene):** 
+  Modify the figure saving logic in Cell 5 to automatically tag saved plot images with your student ID and timestamp (e.g., `figures/mp0_plot_202612345.png`) using Julia string interpolation.
+
+## Creating an independent clone
+You may generate a new repository with the same directory structure and files as an existing repository.
+A template repository do not need to be created.
+This is already part of the template repository for AP195.
+
+A detailed tutorial of the one-time cloning procedure [for creating repository from a teample is found online](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+
+## Installing Julia
 Julia app can be directly downloaded from the Julialang.org [“Download Julia” page](https://julialang.org/downloads). 
 This will provide CLI Julia.
 I recommend downloading the latest stable version.
 Installing the `juliaup` is the latest best way to ensure that your Julia installation is updated properly.
 
-# Julia tutorials
+## Julia tutorials
 Based on experience, one only needs to go through the Julia codes directly and only refer to documentation **as need arises**.
 Our aim is to utilize numerical methods to learn Physics, not to become programming experts.
 For the most part, experience is the best teacher for programming.
@@ -40,7 +56,7 @@ The following documentation and tutorial links are best.
 - [Julia Documentation](https://docs.julialang.org/en/v1/)
 - [Start using Julia](https://docs.julialang.org/en/v1/manual/getting-started/)
 
-# Installing Jupyter notebook
+## Installing Jupyter notebook
 **Jupyter Notebooks** are fun to use.
 Notebooks can contain discussions like a diary.
 PDF files as part of reports may be [generated directly](https://code.visualstudio.com/docs/datascience/jupyter-notebooks#_export-your-jupyter-notebook) from Jupyter notebooks.
@@ -51,9 +67,9 @@ Since we will eventually use this as a way to submit your machine problem soluti
 - Jupyter Notebook installation will require Python installation via [Anaconda](https://www.anaconda.com/products/distribution).
 - Installing IJulia and Julia kernel into Jupyter is found in the [IJulia documentation](https://julialang.github.io/IJulia.jl/stable/).
 
-Installation of Jupyter notebook allows beautiful notebooks, .ipynb, that can me exported (via "download") to PDF or HTML formats.
+Installation of Jupyter notebook allows beautiful notebooks, .ipynb, that can me exported to PDF or HTML formats.
 
-# Installing Julia extension in VSCode
+## Installing Julia extension in VSCode
 VSCode is becoming popular in many programming languages.
 One feature is its ability to incorporate many formatting schemes.
 [There is a Julia an extension](https://code.visualstudio.com/docs/languages/julia) in your existing [VSCode installation](https://code.visualstudio.com/download).

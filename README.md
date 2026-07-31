@@ -1,4 +1,4 @@
-Welcome to the code repository of my undergraduate course Applied Physics 195 : Selected topics of current interest in Applied Physics (Fundamentals of Complexity Science) offered in the 1st Semester of AY 2026-2027.
+Welcome to **a template repository** of my undergraduate course Applied Physics 195 : Selected topics of current interest in Applied Physics (Fundamentals of Complexity Science) offered in the 1st Semester of AY 2026-2027.
 
 # Fundamentals Course
 The App Physics 195 for this semester is a course offered at the National Institute of Physics, UP Diliman as an undergraduate-level introduction for those interested to pursue research of complex systems.
