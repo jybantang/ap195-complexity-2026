@@ -17,7 +17,7 @@ You are free to collaborate with your classmates as we aim to optimize the learn
 However, you are required to disclose the name of the classmate(s) you collaborated with in the report and in the Jupyter notebook to be submitted.
 
 ## Machine Problem 0
-[MP0: Julia Explorations](./mp0-exploration/)
+[MP0: Julia Explorations](./mp0-exploration/README.md)
 
 **OBJECTIVE**: Successfully Explore Julia
 
