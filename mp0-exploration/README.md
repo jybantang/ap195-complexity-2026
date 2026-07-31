@@ -5,27 +5,23 @@
 Provide a Google Docs documentation for the following Key Results (KR).
 Use the provided template.
 You may need a screenshot / printscreen to provide evidence on the following.
-- [ ] **KR1:** Confirmed installation of both [Julia](https://julialang.org/downloads/) and [VSCode](https://code.visualstudio.com).
-Open and run the 
+- [ ] **KR1a:** Created dedicated folder for AP195 Machine Problems.
+      The structure of the folder must follow the repository structure.
+      This one can be done by git-cloning the whole repository.
+- [ ] **KR1:** Confirmed installation of both [Julia](https://julialang.org/downloads/) and [VSCode](https://code.visualstudio.com) along with the required plugins.
+      Run Julia REPL in the command line interface (CLI) and issue the `versioninfo()` command in the installed Julia REPL environment to show the relevant information of the installation.
       The VSCode instance should be able to recognize Julia by installing the following extensions within VSCode.      
       - Language support: `Julia: Julia Language Support`
       - Color theme: `Julia Color Themes: Color themes for the Julia language`
-- [ ] **KR1a:** Created dedicated folder for AP195 Machine Problems.
-      The structure of the folder must follow the repository structure.
-      Run Julia REPL in the command line interface (CLI) and issue the `versioninfo()` command in the installed Julia REPL environment to show the relevant information of the installation.
-- [ ] **KR1b:** Completed execution of the `Hello World!` code as the provided jupyter notebook.
+- [ ] **KR1b:** Completed execution of the Configuration code as the provided jupyter notebook.
       Use export to PDF as output to be submitted together with the `.ipynb` file.
 - [ ] **KR2:** Successful exploration of [mathematical commands within the Jupyter notebook following a tutorial page](https://en.wikibooks.org/wiki/Introducing_Julia/The_REPL#Julia_and_mathematics)...
 - [ ] **KR3:** Successful use of the CLI REPL within the VSCode app with [the four REPL modes](https://en.wikibooks.org/wiki/Introducing_Julia/The_REPL). Discuss the differences and use of each mode.
 
 # Folder structure
 The folder structure should follow the structure of this repository.
+You may clone the whole repository but may need to update in case an update is necessary.
 Avoid the use of space character for filenames and folder names. Use dash `-` instead.
-```
-[path-to-folder]/ap195-complexity-2026-[surname]/
-```
-The `[path-to-folder]` indicates the local folder where you wish to place your ap195 machine problem files.
-The `[surname]` should be your own surname (e.g. `delacruz`, without the spaces, lowercase).
 
 # Installing Julia
 Julia app can be directly downloaded from the Julialang.org [“Download Julia” page](https://julialang.org/downloads). 
