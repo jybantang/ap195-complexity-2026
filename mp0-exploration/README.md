@@ -6,9 +6,10 @@ Provide a Google Docs documentation for the following Key Results (KR).
 Use the provided template.
 You may need a screenshot / printscreen to provide evidence on the following.
 - [ ] **KR1:** Confirmed installation of both [Julia](https://julialang.org/downloads/) and [VSCode](https://code.visualstudio.com).
-      The VSCode instance should be able to recognize Julia by installing the following extensions within VSCode.
-      - `Julia: Julia Language Support`
-      - `Julia Color Themes: Color themes for the Julia language`
+Open and run the 
+      The VSCode instance should be able to recognize Julia by installing the following extensions within VSCode.      
+      - Language support: `Julia: Julia Language Support`
+      - Color theme: `Julia Color Themes: Color themes for the Julia language`
 - [ ] **KR1a:** Created dedicated folder for AP195 Machine Problems.
       The structure of the folder must follow as instructed below.
       Run Julia REPL in the command line interface (CLI) and issue the `versioninfo()` command in the installed Julia REPL environment to show the relevant information of the installation.
@@ -30,22 +31,19 @@ The `[surname]` should be your own surname (e.g. `delacruz`, without the spaces,
 # Installing Julia
 Julia app can be directly downloaded from the Julialang.org [“Download Julia” page](https://julialang.org/downloads). 
 This will provide CLI Julia.
-I recommend downloading the latest stable (25 December 2023), **v 1.10.0** via terminal command in that page.
-Installing the `juliaup` is the latest best way.
-I have tried [installing Julia via `brew`](https://formulae.brew.sh/formula/julia) (I work with MacOS), but recently the version is delayed (v.1.9.4) and reverted to the CLI and `juliaup`.
-You may still opt to use the `brew` and the delayed Julia version should not be a problem.
+I recommend downloading the latest stable version.
+Installing the `juliaup` is the latest best way to ensure that your Julia installation is updated properly.
 
 # Julia tutorials
 Based on experience, one only needs to go through the Julia codes directly and only refer to documentation **as need arises**.
 Our aim is to utilize numerical methods to learn Physics, not to become programming experts.
 For the most part, experience is the best teacher for programming.
-
 We wish to become physicists who can use the computer to help us in our scientific quest.
+
+The best starting point for those with non-Julia background is found in [Manual >> Getting Started](https://docs.julialang.org/en/v1/manual/getting-started/).
+The following documentation and tutorial links are best.
 - [Julia Documentation](https://docs.julialang.org/en/v1/)
 - [Start using Julia](https://docs.julialang.org/en/v1/manual/getting-started/)
-- [Plots Basics](https://docs.juliaplots.org/latest/basics/)
-- [Plots Tutorial](https://docs.juliaplots.org/latest/tutorial/)
-- [Pkg Basics](https://pkgdocs.julialang.org/v1/getting-started/#Basic-Usage)
 
 # Installing Jupyter notebook
 **Jupyter Notebooks** are fun to use.
