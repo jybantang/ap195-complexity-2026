@@ -24,6 +24,8 @@ However, you are required to disclose the name of the classmate(s) you collabora
 ## Machine Problem 1
 MP1: To follow.
 
+**OBJECTIVE**: Successfully Explore Julia
+
 ## Machine Problem 2
 MP2: To follow.
 
