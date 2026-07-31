@@ -11,5 +11,16 @@ Preferably, they should have already taken (or are taking) Physics 107 and Appli
 The complete description of the course is found in the course syllabus accessible via the Google Classroom.
 Submissions shall be done completely **and only** via the created Google Classroom assignment modules.
 
+# Machine Problems
+During one week with schedule as announced, you are expected to work on one of the following Machine Problems at a time.
+You are free to collaborate with your classmates as we aim to optimize the learning process.
+However, you are required to disclose the name of the classmate(s) you collaborated with in the report and in the Jupyter notebook to be submitted.
+
+## MP0: Julia Explorations
+**OBJECTIVE**: Successfully Explore Julia
+
+## MP1:
+
+
 # Disclamer
 Where indicated, parts of the codes and exercises may be taken from various sources specifically examples from the Julia website.
