@@ -13,7 +13,7 @@ Open and run the
 - [ ] **KR1a:** Created dedicated folder for AP195 Machine Problems.
       The structure of the folder must follow the repository structure.
       Run Julia REPL in the command line interface (CLI) and issue the `versioninfo()` command in the installed Julia REPL environment to show the relevant information of the installation.
-- [ ] **KR1b:** Completed execution of the `Hello World!` code as jupyter notebook.
+- [ ] **KR1b:** Completed execution of the `Hello World!` code as the provided jupyter notebook.
       Use export to PDF as output to be submitted together with the `.ipynb` file.
 - [ ] **KR2:** Successful exploration of [mathematical commands within the Jupyter notebook following a tutorial page](https://en.wikibooks.org/wiki/Introducing_Julia/The_REPL#Julia_and_mathematics)...
 - [ ] **KR3:** Successful use of the CLI REPL within the VSCode app with [the four REPL modes](https://en.wikibooks.org/wiki/Introducing_Julia/The_REPL). Discuss the differences and use of each mode.
