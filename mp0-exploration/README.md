@@ -2,7 +2,7 @@
 ## Mission Briefing: Environment Verification & Git Workflow Dry-Run
 
 ### 🎯 Objective
-Establish and verify your local computational research environment (VS Code, Julia 1.x, Jupyter, Git) and execute a reproducible dry-run for the submission pipeline.
+Establish and verify your local computational research environment (VS Code, Julia, Jupyter, Git) including a successful submission of requirements.
 
 ---
 
@@ -69,15 +69,17 @@ Since we will eventually use this as a way to submit your machine problem soluti
 
 Installation of Jupyter notebook allows beautiful notebooks, .ipynb, that can me exported to PDF or HTML formats.
 
-## Installing Julia extension in VSCode
+## Installing VSCode and the Julia extensions
 VSCode is becoming popular in many programming languages.
+Make sure that [the latest version is installed in your OS](https://code.visualstudio.com/download).
 One feature is its ability to incorporate many formatting schemes.
-[There is a Julia an extension](https://code.visualstudio.com/docs/languages/julia) in your existing [VSCode installation](https://code.visualstudio.com/download).
+[There is a Julia an extension](https://code.visualstudio.com/docs/languages/julia) in your existing VSCode installation.
+
 VSCode also provides direct access to the appropriate terminal within your own OS.
 GitHub scripts extension is also available, an advantage for coding teamwork.
-
 VSCode can be used in to edit either: raw `.jl` file, or `.ipynb` file.
+The `.ipynb` file can also be exported to `.pdf` formats within the VS Code.
+You may need to install appropriate extensions within VS Code for this.
+
 VSCode also provides direct access to the appropriate terminal within your own OS.
 GitHub scripts extension is also available, an advantage for coding teamwork.
-
-VSCode can be used in to edit either: raw `.jl` file, or `.ipynb` file.

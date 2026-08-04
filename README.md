@@ -12,28 +12,36 @@ The complete description of the course is found in the course syllabus accessibl
 Submissions shall be done completely **and only** via the created Google Classroom assignment modules.
 
 # Machine Problems
-During one week with schedule as announced, you are expected to work on one of the following Machine Problems at a time.
+You are expected to work on the assigned Machine Problems (MPs) during a dedicated time during each week of the semester.
 You are free to collaborate with your classmates as we aim to optimize the learning process.
 However, you are required to disclose the name of the classmate(s) you collaborated with in the report and in the Jupyter notebook to be submitted.
 
 ## Machine Problem 0
 [MP0: Julia Explorations](mp0-exploration/README.md)
 
-**OBJECTIVE**: Successfully Explore Julia
+**OBJECTIVE**: Establish and verify your local computational research environment (VS Code, Julia, Jupyter, Git) including a successful submission of requirements.
 
 ## Machine Problem 1
-MP1: To follow.
+[MP1: Tipping Points and Stochastic Dynamics](mp1-stochastic-sir/README.md)
 
-**OBJECTIVE**: Successfully Explore Julia
+**OBJECTIVE**: Demonstrate how demographic noise alters macroscopic tipping thresholds and triggers 
+premature extinction in finite-population epidemic dynamics.
 
 ## Machine Problem 2
+
 MP2: To follow.
+
+**OBJECTIVE**: 
 
 ## Machine Problem 3
 MP3: To follow.
 
+**OBJECTIVE**: 
+
 ## Machine Problem 4
 MP4: To follow.
+
+**OBJECTIVE**: 
 
 # Disclamer
 Where indicated, parts of the codes and exercises may be taken from various sources specifically examples from the Julia website.
