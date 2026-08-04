@@ -63,5 +63,3 @@ GitHub scripts extension is also available, an advantage for coding teamwork.
 VSCode can be used in to edit either: raw `.jl` file, or `.ipynb` file.
 VSCode also provides direct access to the appropriate terminal within your own OS.
 GitHub scripts extension is also available, an advantage for coding teamwork.
-
-VSCode can be used in to edit either: raw `.jl` file, or `.ipynb` file.

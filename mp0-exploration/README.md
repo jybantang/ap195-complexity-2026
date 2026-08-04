@@ -1,12 +1,12 @@
-# Applied Physics 195: Machine Problem 0 (MP0)
-## Mission Briefing: Environment Verification & Git Workflow Dry-Run
+# MP0: Set-up and exploration
+[Main](../README.md) | [Next](./)
 
-### 🎯 Objective
+## 🎯 Objective
 Establish and verify your local computational research environment (VS Code, Julia, Jupyter, Git) including a successful submission of requirements.
 
 ---
 
-### 📊 Key Results (Your Grading Rubric)
+## 📊 Key Results (Your Grading Rubric)
 
 ### 😎 Base KRs (≤ 80%)
 - [ ] **KR1 (Julia and IDE):** 
@@ -31,13 +31,6 @@ For students aspiring to demonstrate early computational mastery:
   In Cell 4, extend the discrete logistic map trajectory sweep by adding a third control parameter regime ($r = 3.56$, the onset of period-doubling) and overlay it on the Cell 5 plot.
 - [ ] **KR6 (Automated File Export Hygiene):** 
   Modify the figure saving logic in Cell 5 to automatically tag saved plot images with your student ID and timestamp (e.g., `figures/mp0_plot_202612345.png`) using Julia string interpolation.
-
-## Creating an independent clone
-You may generate a new repository with the same directory structure and files as an existing repository.
-A template repository do not need to be created.
-This is already part of the template repository for AP195.
-
-A detailed tutorial of the one-time cloning procedure [for creating repository from a teample is found online](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
 
 ## Installing Julia
 Julia app can be directly downloaded from the Julialang.org [“Download Julia” page](https://julialang.org/downloads). 
@@ -83,3 +76,10 @@ You may need to install appropriate extensions within VS Code for this.
 
 VSCode also provides direct access to the appropriate terminal within your own OS.
 GitHub scripts extension is also available, an advantage for coding teamwork.
+
+## Creating an independent repository clone
+You may generate a new repository with the same directory structure and files as an existing repository.
+A template repository do not need to be created.
+This is already part of the template repository for AP195.
+
+A detailed tutorial of the one-time cloning procedure [for creating repository from a teample is found online](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
