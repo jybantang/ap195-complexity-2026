@@ -7,6 +7,7 @@ Establish and verify your local computational research environment (VS Code, Jul
 ---
 
 ## 📊 Key Results (Your Grading Rubric)
+test.
 
 ### 😎 Basic KRs (≤ 80%)
 - [ ] **KR1 (Julia and IDE):** 
