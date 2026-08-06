@@ -44,19 +44,6 @@ The following documentation and tutorial links are best.
 - [Julia Documentation](https://docs.julialang.org/en/v1/)
 - [Start using Julia](https://docs.julialang.org/en/v1/manual/getting-started/)
 
-## Installing Jupyter notebook
-**Jupyter Notebooks** are fun to use.
-Notebooks can contain discussions like a diary.
-PDF files as part of reports may be [generated directly](https://code.visualstudio.com/docs/datascience/jupyter-notebooks#_export-your-jupyter-notebook) from Jupyter notebooks.
-
-Since we will eventually use this as a way to submit your machine problem solutions, here are the relevant links.
-- Main [Jupyter page](https://jupyter.org).
-- Jupyter Notebook documentation is found [online](https://jupyter-notebook.readthedocs.io/en/stable/).
-- Jupyter Notebook installation will require Python installation via [Anaconda](https://www.anaconda.com/products/distribution).
-- Installing IJulia and Julia kernel into Jupyter is found in the [IJulia documentation](https://julialang.github.io/IJulia.jl/stable/).
-
-Installation of Jupyter notebook allows beautiful notebooks, .ipynb, that can me exported to PDF or HTML formats.
-
 ## Installing VSCode and the Julia extensions
 VSCode is becoming popular in many programming languages.
 Make sure that [the latest version is installed in your OS](https://code.visualstudio.com/download).
