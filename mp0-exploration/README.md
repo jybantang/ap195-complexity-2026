@@ -17,16 +17,14 @@ Establish and verify your local computational research environment (VS Code, Jul
     - Color theme: `Julia Color Themes: Color themes for the Julia language`
 - [ ] **KR2 (Environment & Code Inheritance):** 
   Clone the starter template repository (see instructions below) and instantiate the isolated Julia environment (`Project.toml` via `Pkg.instantiate()`), and run the baseline notebook top-to-bottom without execution errors.
-- [ ] **KR3 (Code Personalization & Metadata):** 
-  Modify the appropriate with your personal metadata (`student_name`, `student_id`) and adjust the plot styling variables in Cell 5 (e.g., custom line color or LaTeX title string) to confirm execution ownership.
-- [ ] **KR4 (Basic report):** Submitted two files: (1) PDF export as report of the jupyter file/s containing cells with outputs, and (2) file of the zipped folder containing the notebook and the codes (except the PDF).
+- [ ] **KR4 (Basic report):** Submitted two files: (1) PDF export as report of the jupyter file/s containing cells with outputs, and (2) file of the zipped folder containing the notebook and the codes (except the PDF) making sure that the appropriate cells have been updated with your personal metadata as required.
 
 ### 🫡 Outstanding KRs (up to +20%)
 For students aspiring to demonstrate early computational mastery:
 
-- [ ] **KR5 (Exploratory Parameter Shift):** 
+- [ ] **KR4 (Exploratory Parameter Shift):** 
   Create another notebook that extends the discrete logistic map trajectory sweep by adding a third control parameter regime ($r = 3.56$, the onset of period-doubling) and overlay it on the Cell 5 plot.
-- [ ] **KR6 (Automated File Export Hygiene):** 
+- [ ] **KR5 (Automated File Export Hygiene):** 
   Modify the figure saving logic in Cell 5 to automatically tag saved plot images with your student ID and timestamp (e.g., `figures/mp0_plot_202612345.png`) using Julia string interpolation.
 
 ## Installing Julia
