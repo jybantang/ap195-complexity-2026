@@ -20,7 +20,7 @@ Submissions are to be done via the Google Classroom.
 ## Machine Problem 0
 [MP0: Set-up and exploration](mp0-exploration/README.md)
 
-**OBJECTIVE**: Establish and verify your local computational research environment (VS Code, Julia, Jupyter, Git) including a successful submission of requirements.
+**OBJECTIVE**: Verify your local computational research environment (VS Code, Julia, Jupyter, Git) by completing a basic algebraic model including a successful submission of requirements.
 
 ## Machine Problem 1
 [MP1: Tipping Points and Stochastic Dynamics](mp1-stochastic-sir/README.md)
