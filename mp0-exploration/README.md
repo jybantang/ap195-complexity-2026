@@ -44,7 +44,7 @@ The following documentation and tutorial links are best.
 - [Julia Documentation](https://docs.julialang.org/en/v1/)
 - [Start using Julia](https://docs.julialang.org/en/v1/manual/getting-started/)
 
-## Installing VSCode and the Julia extensions
+## VSCode and VSCode extensions
 VSCode is becoming popular IDE recently.
 Make sure that [the latest version is installed in your OS](https://code.visualstudio.com/download).
 One feature is its ability to incorporate many formatting schemes.
@@ -69,7 +69,7 @@ We shall use Jupyter notebooks for your machine problem solutions documentations
 The documentation shall form part of your reports in pdf format.
 PDF files as part of reports may be [generated directly](https://code.visualstudio.com/docs/datascience/jupyter-notebooks#_export-your-jupyter-notebook) from Jupyter notebooks.
 
-## Creating an independent repository clone
+## Independent repository clone
 You may generate a new repository with the same directory structure and files as an existing repository.
 A template repository do not need to be created.
 This is already part of the template repository for AP195.
