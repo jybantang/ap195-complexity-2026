@@ -2,7 +2,7 @@
 [Main](../README.md) | [Next](./)
 
 ## 🎯 Objective
-Establish and verify your local computational research environment (VS Code, Julia, Jupyter, Git) including a successful submission of requirements.
+Examine a discrete-time population model to explore your computational research environment (VS Code, Julia, Jupyter, Git).
 
 ---
 
@@ -13,12 +13,16 @@ test.
 - [ ] **KR1 (Julia and IDE):** 
   Confirmed installation of both [Julia](https://julialang.org/downloads/) and [VSCode](https://code.visualstudio.com) along with the required plugins.
   Run Julia REPL in the command line interface (CLI) and issue the `versioninfo()` command in the installed Julia REPL environment to show the relevant information of the installation.
-  The VSCode instance should be able to recognize Julia by installing the following extensions within VSCode.      
+  The VSCode instance should be able to recognize Julia by installing the following extensions within VSCode.
+    - Jupyter support: `Jupyter: Jupyter notebook support ...`      
     - Language support: `Julia: Julia Language Support`
     - Color theme: `Julia Color Themes: Color themes for the Julia language`
-- [ ] **KR2 (Environment & Code Inheritance):** 
-  Clone the starter template repository (see instructions below) and instantiate the isolated Julia environment (`Project.toml` via `Pkg.instantiate()`), and run the baseline notebook top-to-bottom without execution errors.
-- [ ] **KR4 (Basic report):** Submitted two files: (1) PDF export as report of the jupyter file/s containing cells with outputs, and (2) file of the zipped folder containing the notebook and the codes (except the PDF) making sure that the appropriate cells have been updated with your personal metadata as required.
+- [ ] **KR2 (MP structure):** 
+  Succesful top-to-bottom execution of the baseline notebook provided.
+  Download / copy the code from GitHub and follow the folder structure of the entire project.
+  You may clone the starter template repository (see instructions below) as a new independent personal repository.
+  Instantiate the isolated Julia environment (`Project.toml` via `Pkg.instantiate()`), and run the baseline notebook top-to-bottom fixing execution errors, if any.
+- [ ] **KR4 (Basic report):** Submitted two files: (1) PDF export as report of the jupyter file/s containing cells with outputs of a fixed (as needed) notebook file, and (2) the `.ipynb` file making sure that the appropriate cells have been updated with your personal metadata as required and the output are latest.
 
 ### 🫡 Outstanding KRs (up to +20%)
 For students aspiring to demonstrate early computational mastery:
